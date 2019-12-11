@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee8c47fe-b5c2-4780-ad86-2df7b860787c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="ProjectId" id="1UE0Qo1xmrMQRd6ti9fzEmAfElX" />
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cpn" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.cpn">
+    <configuration name="ARM_cpn" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="iot" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <envs>
+        <env name="GOOS" value="linux" />
+        <env name="GOARCH" value="arm" />
+        <env name="GOARM" value="5" />
+      </envs>
+      <sudo value="true" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/cpn/main.go" />
+      <package value="iot" />
+      <directory value="$PROJECT_DIR$/" />
+      <output_directory value="$PROJECT_DIR$/cpn" />
+      <option name="run" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cpn" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="iot" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/cpn/main.go" />
+      <package value="iot" />
+      <directory value="$PROJECT_DIR$/" />
+      <output_directory value="$PROJECT_DIR$/cpn" />
+      <method v="2" />
+    </configuration>
+    <configuration name="measure" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="iot" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/measure/main.go" />
+      <package value="iot" />
+      <directory value="$PROJECT_DIR$/" />
+      <output_directory value="$PROJECT_DIR$/measure" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pump" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="iot" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/pump/main.go" />
+      <package value="iot" />
+      <directory value="$PROJECT_DIR$/" />
+      <output_directory value="$PROJECT_DIR$/pump" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.ARM_cpn" />
+      <item itemvalue="Go Build.pump" />
+      <item itemvalue="Go Build.measure" />
+      <item itemvalue="Go Build.cpn" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.cpn" />
+        <item itemvalue="Go Build.ARM_cpn" />
+        <item itemvalue="Go Build.pump" />
+        <item itemvalue="Go Build.measure" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

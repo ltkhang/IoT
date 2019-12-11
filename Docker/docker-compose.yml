@@ -1,0 +1,31 @@
+mqtt_1883:
+  image: ansi/mosquitto
+  ports:
+    - 1883:1883
+
+mqtt_1884:
+  image: ansi/mosquitto
+  ports:
+    - 1884:1883
+
+postgres_cpn:
+    image: mdillon/postgis
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=postgres
+    ports:
+      - 5431:5432
+    volumes:
+      - ./data/postgres_cpn:/var/lib/postgresql/data
+
+postgres_server:
+    image: mdillon/postgis
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - ./data/postgres_server:/var/lib/postgresql/data
